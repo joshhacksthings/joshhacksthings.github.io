@@ -5,6 +5,10 @@ img {
 	margin: auto;
 }
 
+title {
+	text-align: center;
+	font-family: Garamond, serif;
+}
 p {
 	text-align: center;
 	font-family: Garamond, serif;
@@ -29,6 +33,6 @@ a {
 
 span {
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 28px;
 	color: #ffffff;
 }
