@@ -9,13 +9,19 @@
 	<p>Click the button and I'll help you get food inside you!
 	</p>
 
-	<br/><br/>
+	<br/>
 
 	<script language="javascript">
-		alert("Hi there, and welcome.")
+		function randomRestaurant(){
+			var rest = ["Oregano's","Grimaldi's","Long-An Thai","Shake Shack","Food",
+			"more food", "other food", "obvi food", "ugh food", "foo", "dddd"];
+			var num = parseInt(Math.random()*10,10);
+			alert(rest[num]);
+		}
 	</script>
 	<div>
-		<a href="https://www.yelp.com/"><span>Feed Yourself at Yelp!</span></a>
+		<a href="https://www.yelp.com/"><span>Feed Yourself Here!</span></a>
+		<button type="button" onclick="randomRestaurant()">Try it</button>
 	</div>
 </body>
 
