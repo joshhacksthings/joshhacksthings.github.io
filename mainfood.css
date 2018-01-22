@@ -1,10 +1,14 @@
 img {
-	
+	display: block;
+	height: 100px;
+	width: 300px;
+	margin: auto;
 }
 
 body {
-	background-color: #B04295;
-	font-color: black;
+	background-color: #D3D3D3;
+	background-image: url("https://wallpaperscraft.com/image/cat_fat_food_meat_89397_3840x1200.jpg");
+	font-color: #ffffff;
 	display: block;
 	background-position: center top;
 	background-attachment: fixed
