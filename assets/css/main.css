@@ -1963,6 +1963,14 @@
 
 /* Icon */
 
+	.devcon {
+		height: 5em;
+		width: 5em;
+		list-style: disc;
+		margin: 0 0 2.25em 0;
+		padding-left: 1em;
+	}
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
