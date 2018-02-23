@@ -1574,7 +1574,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #2d3c37 !important;
+			color: #2E4056 !important;
 		}
 
 	strong, b {
@@ -1726,7 +1726,7 @@
 	}
 
 	header.major h2 {
-		color: #2d3c37;
+		color: #2E4056;
 		font-size: 3.5em;
 	}
 
@@ -1789,7 +1789,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #2d3c37;
+			border-color: #2E4056;
 		}
 
 	.select-wrapper {
@@ -1899,7 +1899,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #2d3c37;
+			border-color: #2E4056;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2100,7 +2100,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #2d3c37;
+					background: #2E4056;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -2387,7 +2387,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #2d3c37;
+			background-color: #2E4056;
 			color: #ffffff !important;
 		}
 
@@ -2395,14 +2395,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #397f68;
+				background-color: #2E4056;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #397f68;
+				background-color: #2E4056;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2469,7 +2469,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #2d3c37;
+		background: #2E4056;
 		color: #d1f1e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2489,15 +2489,15 @@
 			}
 
 		#header header p {
-			color: #b6e9dc;
+			color: #005CCC;
 		}
 
 		#header a {
-			color: #d1f1e9;
+			color: #005CCC;
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #005CCC !important;
 			}
 
 		#header > header {
@@ -2520,7 +2520,7 @@
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: #ffffff;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2541,8 +2541,13 @@
 			}
 
 				#header > footer .icons li a {
-					color: #b6e9dc;
+					color: #ffffff;
 				}
+
+				#header > footer .icons li a:hover {
+					color: #005CCC;
+				}
+
 
 		#header > nav {
 			-moz-flex-grow: 1;
@@ -2558,7 +2563,7 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #2d3c37;
+					border-top: solid 2px #2E4056;
 					display: block;
 					padding: 0;
 				}
@@ -2576,8 +2581,8 @@
 					}
 
 						#header > nav ul li a.active {
-							background: #bfffea;
-							color: #2d3c37 !important;
+							background: #005CCC;
+							color: #ffffff !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2856,7 +2861,7 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #2d3c37;
+						background: #2E4056;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
